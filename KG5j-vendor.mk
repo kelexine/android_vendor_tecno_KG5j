@@ -37,10 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/KG5j/proprietary/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.1.so \
     vendor/tecno/KG5j/proprietary/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/tecno/KG5j/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/tecno/KG5j/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/tecno/KG5j/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/tecno/KG5j/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/tecno/KG5j/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/tecno/KG5j/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/tecno/KG5j/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
     vendor/tecno/KG5j/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
@@ -1273,10 +1269,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/KG5j/proprietary/vendor/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee@1.0.so \
     vendor/tecno/KG5j/proprietary/vendor/lib/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee@1.1.so \
     vendor/tecno/KG5j/proprietary/vendor/lib64/hw/swfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/swfingerprint.default.so \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
     vendor/tecno/KG5j/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/tecno/KG5j/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/tecno/KG5j/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
@@ -1314,3 +1306,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.tranHwInfo@1.0 \
     vendor.transsion.hardware.trancam.trancamserver@1.0 \
     vibrator-mtk-default
+
+ODM_MANIFEST_FILES += \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
+    
