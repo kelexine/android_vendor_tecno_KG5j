@@ -1308,8 +1308,8 @@ PRODUCT_PACKAGES += \
     vibrator-mtk-default
 
 ODM_MANIFEST_FILES += \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
+    vendor/tecno/KG5j/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
     
