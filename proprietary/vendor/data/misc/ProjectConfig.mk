@@ -653,7 +653,7 @@ include $(LOCAL_PATH)/ProjectConfig_TCD.mk
 include $(LOCAL_PATH)/ProjectConfig_TSD.mk
 #BSP: add project clone format by wanghanfeng 20201102 end
 #SDD: add project sw version by jiangping.guo 20201102 start
-MTK_BUILD_VERNO=KG5j-H6126ABC-RGo-OP-220929V405
+MTK_BUILD_VERNO=kelly-H6126ABC-RGo-OP-220929V405
 TRAN_FINGERPRINT_BUILD_VERNO=220929V405
 #SDD: add project sw version by jiangping.guo 20201102 end
 #BSP: add project macro by wanghanfeng 20201102 start
